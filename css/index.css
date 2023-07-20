@@ -26,6 +26,8 @@ body {
     color: #ffffff;
 }
 
+/* ****************** Background Inicio ******************** */
+
 .background {
     height: 46rem;
     width: 100%;
@@ -52,6 +54,7 @@ body {
     z-index: 1;
     display: flex;
 }
+/* -------------------- header logo parte 1-------------------- */
 .header__logo {
     width: 50%;
     height: 100%;
@@ -62,6 +65,7 @@ body {
     width: 2.75rem;
     margin-left: 1.25rem;
 }
+/* -------------------- header menu parte 2-------------------- */
 .header__nav {
     width: 50%;
     height: 100%;
@@ -108,46 +112,44 @@ main {
     position: relative;
     left: 3%;
 }
-
 /* --------------- Sección Design interior & exterior ------------- */
-
-.secDesign {
+.inicio__secDesign {
     height: 50%;
     width: 50%;
 }
-.secDesign__title {
+.inicio__title--secDesign {
     width: 100%;
     height: 20%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
-.secDesign__h2 {
+.inicio__h2--secDesign {
     font-size: 48px;
     color: #ffffff;
     font-weight: 800;
 }
-.secDesign__text {
+.inicio__text--secDesign {
     height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.secDesign__p {
+.inicio__p--secDesign {
     text-align: center;
     width: 70%;
     font-weight: 300;
     position: relative;
     left: 30px;
 }
-.secDesign__reserva {
+.inicio__reserva {
     height: 20%;
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.secDesign__btn {
+.inicio__btn--reserva {
     width: 400px;
     border-radius: 15px;
     background-color: #b87b56;
@@ -159,69 +161,63 @@ main {
     cursor: pointer;
     transition: 0.2s all ;
 }
-.secDesign__btn:hover {
+.inicio__btn--reserva:hover {
     background-color: #c27649;
 }
-
 /* ----------------- Seccion Imágenes Interiores ------------------ */
-
-.secInterior {
+.inicio__secInterior {
     height: 50%;
     width: 50%;
     display: flex;
     justify-content: flex-end;
 }
-.secInterior__img {
+.inicio__img--secInterior {
     width: 35rem;
     height: 47rem;
     border-radius: 2rem;
     mix-blend-mode: lighten;
 }
-.secInterior__img1 {
+.inicio__img1--secInterior {
     position: relative;
     top: 100px;
     right: 30px;
 }
-.secInterior__img2 {
+.inicio__img2--secInterior {
     position: absolute;
     right: 200px;
     top: 200px;
 }
-
 /* ----------------- Seccion Imágenes Exteriores ------------------ */
-
-.secExterior {
+.inicio__secExterior {
     height: 50%;
     width: 50%;
     display: flex;
     align-items: flex-end;
 }
-.secExterior__img {
+.inicio__img--secExterior {
     width: 35rem;
     height: 47rem;
     border-radius: 2rem;
     mix-blend-mode: lighten;
 }
-.secExterior__img1 {
+.inicio__img1--secExterior {
     position: relative;
     bottom: 100px;
     left: 30px;
 }
-.secExterior__img2 {
+.inicio__img2--secExterior {
     left: 200px;
     position: absolute;
     bottom: 180px;
 }
-
 /* ----------------------- Seccion Nosotros ------------------------ */
-
-.secNosotros {
+.inicio__secNosotros {
     height: 50%;
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-.secNosotros__title {
+.inicio__title--secNosotros {
     height: 20%;
     width: 100%;
     display: flex;
@@ -229,19 +225,19 @@ main {
     position: relative;
     left: 40px;
 }
-.secNosotros__h2 {
+.inicio__h2--secNosotros {
     font-size: 48px;
     color: #ffffff;
     font-weight: 800;
 }
-.secNosotros__whats {
+.inicio__whats {
     height: 15%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.secNosotros__btn--whats {
+.inicio__btn--whats {
     width: 400px;
     border-radius: 15px;
     background-color: #68824b;
@@ -253,10 +249,10 @@ main {
     cursor: pointer;
     transition: 0.2s all ;
 }
-.secNosotros__btn--whats:hover {
-    background-color: #627946;
+.inicio__btn--whats:hover {
+    background-color: #577435;
 }
-.secNosotros__text {
+.inicio__text--secNosotros {
     height: 45%;
     width: 100%;
     display: flex;
@@ -264,12 +260,12 @@ main {
     align-items: center;
     justify-content: center;
 }
-.secNosotros__p {
+.inicio__p--secNosotros {
     text-align: center;
     width: 70%;
     font-weight: 300;
 }
-.secNosotros__ayuda {
+.inicio__ayuda {
     height: 20%;
     width: 100%;
     display: flex;
@@ -277,7 +273,7 @@ main {
     position: relative;
     right: 30px;
 }
-.secNosotros__btn--ayuda {
+.inicio__btn--ayuda {
     width: 400px;
     border-radius: 15px;
     background-color: #1B1B1B;
@@ -290,10 +286,188 @@ main {
     transition: 0.2s all ;
     opacity: 0.9;
 }
-.secNosotros__btn--ayuda:hover {
+.inicio__btn--ayuda:hover {
     opacity: 1;
 }
 
+/* *********************** PAGINA INICIAR SESION ************************/
+
+.main__iniciarse {
+    display: flex;
+    height: 55rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iniciarse__h2 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 10px;
+}
+.iniciarse__form {
+    display: flex;
+    flex-direction: column;
+}
+.iniciarse__label {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.iniciarse__input {
+    width: 22rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0.9;
+}
+.iniciarse__input:focus {
+    opacity: 1;
+}
+.iniciarse__a--form {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.iniciarse__a--form:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.iniciarse__button--form {
+    width: 22rem;
+    height: 3.25rem;
+    border: 0;
+    font-size: 15px;
+    border-radius: 1.5rem;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #DA9D56;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: 0.3s all;
+}
+.iniciarse__button--form:hover {
+    opacity: 1;
+}
+.iniciarse__p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+.iniciarse__button {
+    margin-top: 30px;
+    width: 22rem;
+    height: 3.25rem;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 1.5rem;
+    opacity: 0.9;
+    color: white;
+    transition: 0.3s all;
+}
+.iniciarse__button:hover {
+    opacity: 1;
+}
+.iniciarse__button--registro {
+    background-color: #1B1B1B;
+    border: 2px solid #DA9D56;
+}
+.iniciarse__button--facebook {
+    background-color: #1B1B1B;
+    border: 2px solid #5683DA;
+}
+.iniciarse__button--google {
+    background-color: #1B1B1B;
+    border: 2px solid #C7B9B9;
+}
+
+/* *********************** PAGINA REGISTRARSE ************************/
+
+.main__registrarse {
+    display: flex;
+    height: 60rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.registrarse__h2 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 10px;
+}
+.registrarse__form {
+    display: flex;
+    flex-direction: column;
+}
+.registrarse__label {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.registrarse__input {
+    width: 22rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.9;
+}
+.registrarse__input:focus {
+    opacity: 1;
+}
+.registrarse__button--form {
+    width: 22rem;
+    height: 3.25rem;
+    border: 0;
+    font-size: 15px;
+    border-radius: 1.5rem;
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: #DA9D56;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: 0.3s all;
+}
+.registrarse__button--form:hover {
+    opacity: 1;
+}
+.registrarse__p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+.registrarse__button {
+    margin-top: 30px;
+    width: 22rem;
+    height: 3.25rem;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 1.5rem;
+    opacity: 0.9;
+    color: white;
+    transition: 0.3s all;
+}
+.registrarse__button:hover {
+    opacity: 1;
+}
+.registrarse__button--facebook {
+    background-color: #1B1B1B;
+    border: 2px solid #5683DA;
+}
+.registrarse__button--google {
+    background-color: #1B1B1B;
+    border: 2px solid #C7B9B9;
+}
 
 /* **************************** FOOTER ******************************** */
 
@@ -310,6 +484,7 @@ main {
     display: flex;
     align-items: center;
 }
+/* ---------------- footer mapa parte 1 ----------------- */
 .footer__map {
     width: 33.3%;
     display: flex;
@@ -322,6 +497,7 @@ main {
     height: 17.5rem;
     width: 24.3rem;
 }
+/* ---------------- footer logo parte 2 ----------------- */
 .footer__logo {
     width: 33.3%;
     height: 100%;
@@ -332,6 +508,7 @@ main {
 .footer__img--logo {
     width: 25rem;
 }
+/* ---------------- footer redes parte 3 ----------------- */
 .footer__contacto {
     width: 33.3%;
     height: 100%;
@@ -382,12 +559,14 @@ main {
     font-size: 14px;
     font-weight: 300
 }
+/* ------------------ footer hr divisor  ------------------- */
 .footer__hr {
     border: 1px solid #b98060;
     width: 94%;
     position: relative;
     left: 3%;
 }
+/* ------------------ footer copy parte 4 -------------------- */
 .footer__copy {
     text-align: center;
     position: relative;
@@ -405,64 +584,70 @@ main {
 /* *********************** MEDIA DE 1400px ************************** */
 
 @media (width <= 1400px) {
+    /* Main */
     .main__inicio {
         height: 200rem;
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    .secDesign {
+    /*  Inicio  */
+    /*  Seccion design  */
+    .inicio__secDesign {
         height: 25%;
         width: 100%;
     }
-    .secDesign__title {
+    .inicio__title--secDesign {
         justify-content: center;
     }
-    .secDesign__p {
+    .inicio__p--secDesign {
         left: 15%;
     }
-    .secDesign__reserva {
+    .inicio__reserva {
         align-items: center;
     }
-    .secInterior {
+    /*  Seccion Interir  */
+    .inicio__secInterior {
         height: 25%;
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .secInterior__img1 {
+    .inicio__img1--secInterior {
         position: relative;
         top: 0px;
         right: 0px;
     }
-    .secInterior__img2 {
+    .inicio__img2--secInterior {
         display: none;
     }
-    .secExterior {
+    /*  Seccion Exterior  */
+    .inicio__secExterior {
         height: 25%;
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .secExterior__img1 {
+    .inicio__img1--secExterior {
         bottom: 0px;
         left: 0px;
     }
-    .secExterior__img2 {
+    .inicio__img2--secExterior {
         display: none;
     }
-    .secNosotros {
+    /*  Seccion Nosotros  */
+    .inicio__secNosotros {
         height: 25%;
         width: 100%;
     }
-    .secNosotros__title {
+    .inicio__title--secNosotros {
         left: 0px;
         justify-content: center;
     }
-    .secNosotros__ayuda {
+    .inicio__ayuda {
         justify-content: center;
         right: 0px;
     }
-
+    /*  Footer  */
     .footer {
         height: 70rem;
     }
@@ -506,10 +691,11 @@ main {
 /* *********************** MEDIA DE 576px ************************** */
 
 @media (width <= 576px) {
+    /*   background inicio   */
     .background__img {
         width: 22rem;
     }
-
+    /*   Footer   */
     .footer {
         height: 60rem;
     }
