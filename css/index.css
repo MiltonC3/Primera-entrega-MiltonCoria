@@ -99,11 +99,6 @@ body {
 
 /* ************************ PAGINA INICIO ************************* */
 
-main {
-    height: 150rem;
-    width: 100%;
-}
-
 .main__inicio {
     height: 120rem;
     display: flex;
@@ -125,7 +120,7 @@ main {
     align-items: flex-end;
 }
 .inicio__h2--secDesign {
-    font-size: 48px;
+    font-size: 3rem;
     color: #ffffff;
     font-weight: 800;
 }
@@ -141,7 +136,7 @@ main {
     width: 70%;
     font-weight: 300;
     position: relative;
-    left: 30px;
+    left: 1.85rem;
 }
 .inicio__reserva {
     height: 20%;
@@ -151,9 +146,9 @@ main {
 }
 .inicio__btn--reserva {
     width: 400px;
-    border-radius: 15px;
+    border-radius: 0.95rem;
     background-color: #b87b56;
-    height: 51px;
+    height: 3.2rem;
     border: 0px;
     font-size: 17px;
     font-weight: 400;
@@ -179,13 +174,13 @@ main {
 }
 .inicio__img1--secInterior {
     position: relative;
-    top: 100px;
-    right: 30px;
+    top: 6.25rem;
+    right: 1.85rem;
 }
 .inicio__img2--secInterior {
     position: absolute;
-    right: 200px;
-    top: 200px;
+    right: 12.5rem;
+    top: 12.5rem;
 }
 /* ----------------- Seccion Imágenes Exteriores ------------------ */
 .inicio__secExterior {
@@ -202,13 +197,13 @@ main {
 }
 .inicio__img1--secExterior {
     position: relative;
-    bottom: 100px;
-    left: 30px;
+    bottom: 6.25rem;
+    left: 1.85rem;
 }
 .inicio__img2--secExterior {
-    left: 200px;
+    left: 12.5rem;
     position: absolute;
-    bottom: 180px;
+    bottom: 11.25rem;
 }
 /* ----------------------- Seccion Nosotros ------------------------ */
 .inicio__secNosotros {
@@ -223,10 +218,10 @@ main {
     display: flex;
     align-items: center;
     position: relative;
-    left: 40px;
+    left: 2.5rem;
 }
 .inicio__h2--secNosotros {
-    font-size: 48px;
+    font-size: 3rem;
     color: #ffffff;
     font-weight: 800;
 }
@@ -238,10 +233,10 @@ main {
     justify-content: center;
 }
 .inicio__btn--whats {
-    width: 400px;
-    border-radius: 15px;
+    width: 25rem;
+    border-radius: 1rem;
     background-color: #68824b;
-    height: 51px;
+    height: 3.2rem;
     border: 0px;
     font-size: 17px;
     font-weight: 400;
@@ -271,14 +266,14 @@ main {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    right: 30px;
+    right: 1.85rem;
 }
 .inicio__btn--ayuda {
-    width: 400px;
-    border-radius: 15px;
+    width: 25rem;
+    border-radius: 1rem;
     background-color: #1B1B1B;
     border: 2px solid #84BBB1;
-    height: 51px;
+    height: 3.2rem;
     font-size: 17px;
     font-weight: 400;
     color: #ffffff;
@@ -288,6 +283,303 @@ main {
 }
 .inicio__btn--ayuda:hover {
     opacity: 1;
+}
+
+/* ************************* PAGINA RESERVAR ************************** */
+
+.main__reservar {
+    height: 70rem;
+    position: relative;
+    left: 3%;
+    width: 94%;
+    display: flex;
+}
+/* ------------------------- Seccion Reservar form */
+
+.reservar__secReserva {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reservar__h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 800;
+    margin: 0.6rem;
+}
+/* ----------------formulario para reservar ------------------ */
+.reservar__form {
+    width: 40rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reservar__entrada {
+    height: 20%;
+}
+.reservar__input {
+    width: 18rem;
+    height: 3rem;
+    position: relative;
+    left: 0.6rem;
+    border: 0;
+    border-radius: 1.5rem;
+    margin-top: 1.25rem;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.9;
+}
+.reservar__input:hover {
+    opacity: 1;
+}
+.reservar__salida {
+    height: 20%;
+}
+.reservar__personas {
+    height: 20%;
+}
+.reservar__tarifa {
+    display: flex;
+    align-items: center;
+    height: 20%;
+}
+.reservar__tarifa--uno {
+    display: flex;
+}
+.reservar__p {
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+.reservar__tarifa--dos {
+    display: flex;
+    justify-self: flex-end;
+}
+/* -------------------- botones reutilizacion -------------------- */
+.reservar__button {
+    margin-top: 1.85rem;
+    width: 22rem;
+    height: 3.25rem;
+    font-size: 15px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 1.5rem;
+    opacity: 0.9;
+    transition: 0.3s all;
+}
+.reservar__button:hover {
+    opacity: 1;
+}
+.reservar__button--reser {
+    background-color: #BF7B5E;
+    color: white;
+}
+.reservar__button--whats {
+    background-color: #1B1B1B;
+    color: #ABCD90;
+}
+.reservar__button--complejo {
+    border: 2px solid #BF7B5E;
+    color: white;
+    background-color: #1B1B1B;
+}
+/* --------------link que lleva a preguntas frecuentes --------------*/
+.reservar__a--preguntas {
+    color: white;
+    text-underline-position: under;
+    opacity: 0.9;
+}
+.reservar__a--preguntas:hover {
+    opacity: 1;
+}
+/* ----------------- Seccion Portada con imagen ---------------------- */
+.reservar__secPortada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.reservar__img {
+    width: 40rem;
+    height: 55rem;
+    border-radius: 6.25rem 0px;
+    mix-blend-mode: lighten;
+}
+
+/* ************************ PAGINA SERVICIOS ************************** */
+
+.main__servicios {
+    height: 75rem;
+    width: 94%;
+    left: 3%;
+}
+
+.servicios__div {
+    height: 12%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+.servicios__h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.servicios__secciones {
+    width: 100%;
+    height: 88%;
+    display: flex;
+}
+.servicios__sectionText {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servicios__p {
+    width: 70%;
+    margin: 1.25rem;
+    text-align: center;
+}
+
+.servicios__sectionFotos {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.servicios__img {
+    mix-blend-mode: lighten;
+    position: absolute;
+    border-radius: 2rem;
+}
+.servicios__img--uno {
+    width: 20rem;
+    height: 30rem;
+    top: 34.3rem;
+    right: 31.25rem;
+}
+.servicios__img--dos {
+    width: 33.5rem;
+    height: 22rem;
+    top: 15.6rem; 
+    right: 6.25rem;
+}
+.servicios__img--tres {
+    width: 28rem;
+    height: 42rem;
+    right: 9.3rem;
+    top: 31.25rem;
+}
+
+/* ************************* PAGINA AYUDA *************************** */
+
+.main__ayuda {
+    height: 100rem;
+    display: flex;
+    width: 94%;
+    position: relative;
+    left: 3%;
+    flex-wrap: wrap;
+}
+/* ----------------------Seccion Portada -------------------------- */
+.ayuda__sectionPortada {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.ayuda__img {
+    width: 54rem;
+    height: 36rem;
+    border-radius: 0px 6.25rem;
+    mix-blend-mode: lighten;
+    position: relative;
+    left: 1.85rem;
+}
+.ayuda__sectionContacto {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ayuda__form {
+    display: flex;
+    width: 25rem;
+    height: 37.5rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.ayuda__label {
+    margin-top: 1.25rem;
+}
+.ayuda__input {
+    margin-top: 0.3rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.9;
+}
+.ayuda__input:focus {
+    opacity: 1;
+}
+.ayuda__textarea {
+    height: 10rem;
+    margin-top: 0.3rem;
+    border-radius: 1.5rem;
+    resize: none;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.9;
+}
+.ayuda__textarea:focus {
+    opacity: 1;
+}
+.ayuda__button {
+    height: 3.25rem;
+    border: 0;
+    font-size: 15px;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+    background-color: #DA9D56;
+    font-weight: 600;
+    opacity: 0.9;
+    transition: 0.3s all;
+}
+/* ------------------ Seccion Preguntas frecuentes ------------- */
+.sectionPreguntas {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ayuda__h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.ayuda__p {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin: 0.4rem;
+    text-align: center;
 }
 
 /* *********************** PAGINA INICIAR SESION ************************/
@@ -304,7 +596,7 @@ main {
     font-size: 48px;
     color: #ffffff;
     font-weight: 800;
-    margin: 10px;
+    margin: 0.625rem;
 }
 .iniciarse__form {
     display: flex;
@@ -312,7 +604,7 @@ main {
 }
 .iniciarse__label {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 400;
     font-size: 17px;
 }
@@ -321,7 +613,7 @@ main {
     height: 3.25rem;
     border: 0;
     border-radius: 1.5rem;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
     opacity: 0.9;
 }
@@ -332,7 +624,7 @@ main {
     font-size: 14px;
     color: white;
     text-decoration: none;
-    margin-top: 13px;
+    margin-top: 0.8rem;
 }
 .iniciarse__a--form:hover {
     text-decoration: underline;
@@ -344,7 +636,7 @@ main {
     border: 0;
     font-size: 15px;
     border-radius: 1.5rem;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     cursor: pointer;
     background-color: #DA9D56;
     font-weight: 600;
@@ -355,7 +647,7 @@ main {
     opacity: 1;
 }
 .iniciarse__p {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 300;
 }
 .iniciarse__button {
@@ -526,7 +818,7 @@ main {
     flex-direction: column;
     align-items: center;
     font-size: 14px;
-    margin-left: 100px;
+    margin-left: 6.25rem;
     margin-bottom: 12px;
     color: #ffffff;
     opacity: 0.8;
@@ -543,7 +835,7 @@ main {
     margin-top: 8px;
 }
 .footer__datos {
-    width: 385px;
+    width: 24.0625rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
