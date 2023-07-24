@@ -332,6 +332,7 @@ body {
     text-align: center;
     font-size: 16px;
     opacity: 0.9;
+    padding: 10px;
 }
 .reservar__input:hover {
     opacity: 1;
@@ -527,7 +528,7 @@ body {
     height: 3.25rem;
     border: 0;
     border-radius: 1.5rem;
-    text-align: center;
+    padding: 15px;
     font-size: 15px;
     opacity: 0.9;
 }
@@ -541,7 +542,7 @@ body {
     resize: none;
     border: none;
     font-size: 15px;
-    text-align: center;
+    padding: 15px;
     opacity: 0.9;
 }
 .ayuda__textarea:focus {
@@ -558,6 +559,9 @@ body {
     font-weight: 600;
     opacity: 0.9;
     transition: 0.3s all;
+}
+.ayuda__button:hover {
+    opacity: 1;
 }
 /* ------------------ Seccion Preguntas frecuentes ------------- */
 .sectionPreguntas {
